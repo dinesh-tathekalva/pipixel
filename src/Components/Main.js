@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <div className="container d-flex flex-column flex-md-row navItem">
             <NavVertical />
-            <div className="container">
+            <div className="container mt-2">
                 <SimpleGallery
                     galleryID="my-test-gallery"
                     images={[
@@ -20,7 +20,6 @@ const Main = () => {
                         {
                             largeURL:
                                 'https://raw.githubusercontent.com/dinesh-tathekalva/pipixel/main/Images/LargeImg.jpeg',
-                            // thumbnailURL:'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
                             thumbnailURL:'https://raw.githubusercontent.com/dinesh-tathekalva/pipixel/main/Images/SmallImg.jpeg',
                             width: 2500,
                             height: 1666,
@@ -74,70 +73,6 @@ const Main = () => {
                                 width: 2500,
                                 height: 1666,
                         },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
-                        // {
-                        //     largeURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                        //     thumbnailURL:
-                        //         'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                        //     width: 2500,
-                        //     height: 1666,
-                        // },
                     ]}
                 />
             </div>

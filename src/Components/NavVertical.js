@@ -103,22 +103,22 @@ const NavVertical = (args) => {
                             <NavLink href="/components/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">
+                            <NavLink href="#">
                                 Portraits
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">
+                            <NavLink href="#">
                                 Weddings
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">
+                            <NavLink href="#">
                                 About Us
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">
+                            <NavLink href="#">
                                 Contact
                             </NavLink>
                         </NavItem>
@@ -136,10 +136,10 @@ const NavVertical = (args) => {
                     </Nav>
                     {/* <NavbarText>Simple Text</NavbarText> */}
                     <Nav class="navbar navbar-light bg-light d-flex align-items-center">
-                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/">
+                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank">
                             <img className="d-flex align-items-center" src={InstagramLogo} width="30" height="30" alt="" />
                         </a>
-                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/">
+                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank">
                             <img className="align-top" src={FacebookLogo} width="30" height="25" alt="" />
                         </a>
                     </Nav>
