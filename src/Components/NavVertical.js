@@ -136,10 +136,10 @@ const NavVertical = (args) => {
                     </Nav>
                     {/* <NavbarText>Simple Text</NavbarText> */}
                     <Nav class="navbar navbar-light bg-light d-flex align-items-center">
-                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank">
+                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
                             <img className="d-flex align-items-center" src={InstagramLogo} width="30" height="30" alt="" />
                         </a>
-                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank">
+                        <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
                             <img className="align-top" src={FacebookLogo} width="30" height="25" alt="" />
                         </a>
                     </Nav>
