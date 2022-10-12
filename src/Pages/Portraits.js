@@ -1,10 +1,8 @@
-import NavVertical from "./NavVertical";
-import SimpleGallery from "./SimpleGallery";
-
-const Main = () => {
+import React from 'react'
+import SimpleGallery from "../Components/SimpleGallery";
+function Portraits() {
     return (
         <div className="d-flex flex-column flex-md-row navItem">
-            <NavVertical />
             <div className="container mt-2">
                 <SimpleGallery
                     galleryID="my-test-gallery"
@@ -20,7 +18,7 @@ const Main = () => {
                         {
                             largeURL:
                                 'https://raw.githubusercontent.com/dinesh-tathekalva/pipixel/main/Images/LargeImg.jpeg',
-                            thumbnailURL:'https://raw.githubusercontent.com/dinesh-tathekalva/pipixel/main/Images/SmallImg.jpeg',
+                            thumbnailURL: 'https://raw.githubusercontent.com/dinesh-tathekalva/pipixel/main/Images/SmallImg.jpeg',
                             width: 2500,
                             height: 1666,
                         },
@@ -32,7 +30,7 @@ const Main = () => {
                             width: 2500,
                             height: 1666,
                         },
-                        
+
                         {
                             largeURL:
                                 'https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg',
@@ -46,8 +44,8 @@ const Main = () => {
                                 'https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg',
                             thumbnailURL:
                                 'https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg',
-                                width: 2500,
-                                height: 1666,
+                            width: 2500,
+                            height: 1666,
                         },
                         {
                             largeURL:
@@ -70,8 +68,8 @@ const Main = () => {
                                 'https://cdn.photoswipe.com/photoswipe-demo-images/photos/8/img-2500.jpg',
                             thumbnailURL:
                                 'https://cdn.photoswipe.com/photoswipe-demo-images/photos/8/img-200.jpg',
-                                width: 2500,
-                                height: 1666,
+                            width: 2500,
+                            height: 1666,
                         },
                     ]}
                 />
@@ -80,4 +78,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default Portraits
