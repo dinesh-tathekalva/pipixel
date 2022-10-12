@@ -3,28 +3,25 @@ import PipixelLogo from '../svgs/PipixelLogo.svg'
 import useSlider from '../Hooks/useSlider.js'
 import { useNavigate } from 'react-router-dom'
 
-
 const Slider = ({ images }) => {
   let navigate = useNavigate()
-
-
   const slideImage = useRef(null)
   const slideText = useRef(null)
   const { goToPreviousSlide, goToNextSlide } = useSlider(slideImage, slideText, images)
 
   return (
     <div className="slider" ref={slideImage} style={{ overflow: "hidden" }}>
-      <div className='mt-3 text-uppercase' style={{ display: "flex", justifyContent: "space-around", color: "#fff", }}>
-        <span onClick={() => {
+      <div className='mt-3 text-uppercase homeNav'>
+        <span className='homeNavText' onClick={() => {
           navigate("/portraits")
         }}>Portraits </span>
-        <span onClick={() => {
+        <span className='homeNavText' onClick={() => {
           navigate("/portraits")
         }}>weddings </span>
-        <span onClick={() => {
+        <span className='homeNavText' onClick={() => {
           navigate("/aboutUs")
         }}>About Us</span>
-        <span onClick={() => {
+        <span className='homeNavText' onClick={() => {
           navigate("/contact")
         }}>Contact</span>
       </div>

@@ -2,7 +2,6 @@ import { NavItem, NavLink, Nav } from "reactstrap";
 import InstagramLogo from '../svgs/InstagramB&W.svg'
 import FacebookLogo from '../svgs/FacebookB&W.svg'
 import PipixelLogo from '../svgs/PipixelLogo.svg'
-import PipixelLogo1 from '../svgs/Test.svg'
 import { useNavigate } from 'react-router-dom'
 import React from 'react';
 import {
@@ -11,20 +10,20 @@ import {
     NavbarBrand,
 } from 'reactstrap';
 
-
 const NavVertical = (args) => {
     let navigate = useNavigate()
     return (
         <div>
             <Navbar {...args}>
-                <NavbarBrand className="mt-3" href="/">
+                <NavbarBrand className="mt-3" href="/" onClick={() => {
+                    navigate("/")
+                }}>
                     <img className="mx-auto" src={PipixelLogo} alt='' width='220' />
-                    <img className="mx-auto" src={PipixelLogo1} alt='' width='220' />
                 </NavbarBrand>
                 <Collapse className="mt-3" isOpen={true} navbar>
                     <Nav className="me-auto text-uppercase" navbar>
                         <NavItem className="d-flex justify-content-center">
-                            <NavLink onClick={()=>{
+                            <NavLink onClick={() => {
                                 navigate("/")
                             }}>Home</NavLink>
                         </NavItem>
