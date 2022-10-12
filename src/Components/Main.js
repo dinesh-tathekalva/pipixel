@@ -3,7 +3,7 @@ import SimpleGallery from "./SimpleGallery";
 
 const Main = () => {
     return (
-        <div className="container d-flex flex-column flex-md-row navItem">
+        <div className="d-flex flex-column flex-md-row navItem">
             <NavVertical />
             <div className="container mt-2">
                 <SimpleGallery
