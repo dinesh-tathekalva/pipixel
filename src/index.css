@@ -22,7 +22,15 @@ body {
   color: #fff
 }
 
+.contactFont {
+  font-family: 'Manrope', sans-serif;
+  font-size:medium;
+  margin-left: 6em;
+}
 
+.contactHeading{
+  font-weight: bolder!important;
+}
 
 
 
