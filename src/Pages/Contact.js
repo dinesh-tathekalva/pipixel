@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button, Card, CardBody, CardGroup, CardImg, CardSubtitle, CardText, CardTitle, Col, Form, FormGroup, Input, Label, Row } from 'reactstrap'
+import { Col, Form, FormGroup, Label, Row } from 'reactstrap'
 import Phone from '../svgs/Phone.svg'
 import Email from '../svgs/Email.svg'
 import Location from '../svgs/Location.svg'
-// import test from '../../public/emailer.php'
 
 function Contact() {
   return (
