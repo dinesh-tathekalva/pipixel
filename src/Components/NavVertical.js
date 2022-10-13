@@ -25,38 +25,38 @@ const NavVertical = (args) => {
                         <NavItem className="ml-3">
                             <NavLink onClick={() => {
                                 navigate("/")
-                            }}><span style={{ marginLeft: "3em" }}>Home</span></NavLink>
+                            }}><span role="button" style={{ marginLeft: "2em" }}>Home</span></NavLink>
                         </NavItem>
                         <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/portraits")
                             }}>
-                                <span style={{ marginLeft: "3em" }}>Portraits</span>
+                                <span role="button" style={{ marginLeft: "2em" }}>Portraits</span>
                             </NavLink>
                         </NavItem>
                         <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/weddings")
                             }}>
-                                <span style={{ marginLeft: "3em" }}>Weddings</span>
+                                <span role="button" style={{ marginLeft: "2em" }}>Weddings</span>
                             </NavLink>
                         </NavItem>
                         <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/aboutUs")
                             }}>
-                                <span style={{ marginLeft: "3em" }}>About Us</span>
+                                <span role="button" style={{ marginLeft: "2em" }}>About Us</span>
                             </NavLink>
                         </NavItem>
                         <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/contact")
                             }}>
-                                <span style={{ marginLeft: "3em" }}>Contact</span>
+                                <span role="button" style={{ marginLeft: "2em" }}>Contact</span>
                             </NavLink>
                         </NavItem>
                         <NavItem className="d-flex mt-3">
-                            <a class="navbar-brand" style={{ marginLeft: "2em" }} href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
+                            <a class="navbar-brand" style={{ marginLeft: "1.2em" }} href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
                                 <img  className="d-flex align-items-center" src={InstagramLogo} width="30" height="30" alt="" />
                             </a>
                             <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
