@@ -2,7 +2,7 @@ import React from 'react'
 import SimpleGallery from "../Components/SimpleGallery";
 function Portraits() {
     return (
-        <div className="d-flex flex-column flex-md-row navItem">
+        <div className="d-flex flex-column mt-5 flex-sm-row navItem">
             <div className="container mt-2">
                 <SimpleGallery
                     galleryID="my-test-gallery"

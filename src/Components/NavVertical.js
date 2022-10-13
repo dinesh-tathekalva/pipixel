@@ -14,7 +14,7 @@ const NavVertical = (args) => {
     let navigate = useNavigate()
     return (
         <div>
-            <Navbar {...args}>
+            <Navbar {...args} style={{width: "min-content"}}>
                 <NavbarBrand className="mt-3" href="/" onClick={() => {
                     navigate("/")
                 }}>
@@ -22,42 +22,42 @@ const NavVertical = (args) => {
                 </NavbarBrand>
                 <Collapse className="mt-3" isOpen={true} navbar>
                     <Nav className="me-auto text-uppercase" navbar>
-                        <NavItem className="d-flex justify-content-center">
+                        <NavItem className="ml-3">
                             <NavLink onClick={() => {
                                 navigate("/")
-                            }}>Home</NavLink>
+                            }}><span style={{ marginLeft: "3em" }}>Home</span></NavLink>
                         </NavItem>
-                        <NavItem className="d-flex justify-content-center">
+                        <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/portraits")
                             }}>
-                                Portraits
+                                <span style={{ marginLeft: "3em" }}>Portraits</span>
                             </NavLink>
                         </NavItem>
-                        <NavItem className="d-flex justify-content-center">
+                        <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/weddings")
                             }}>
-                                Weddings
+                                <span style={{ marginLeft: "3em" }}>Weddings</span>
                             </NavLink>
                         </NavItem>
-                        <NavItem className="d-flex justify-content-center">
+                        <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/aboutUs")
                             }}>
-                                About Us
+                                <span style={{ marginLeft: "3em" }}>About Us</span>
                             </NavLink>
                         </NavItem>
-                        <NavItem className="d-flex justify-content-center">
+                        <NavItem className="">
                             <NavLink onClick={() => {
                                 navigate("/contact")
                             }}>
-                                Contact
+                                <span style={{ marginLeft: "3em" }}>Contact</span>
                             </NavLink>
                         </NavItem>
-                        <NavItem className="d-flex justify-content-center mt-3">
-                            <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
-                                <img className="d-flex align-items-center" src={InstagramLogo} width="30" height="30" alt="" />
+                        <NavItem className="d-flex mt-3">
+                            <a class="navbar-brand" style={{ marginLeft: "2em" }} href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
+                                <img  className="d-flex align-items-center" src={InstagramLogo} width="30" height="30" alt="" />
                             </a>
                             <a class="navbar-brand" href="https://www.instagram.com/pi.pixel/" target="_blank" rel="noreferrer">
                                 <img className="align-top" src={FacebookLogo} width="30" height="25" alt="" />
